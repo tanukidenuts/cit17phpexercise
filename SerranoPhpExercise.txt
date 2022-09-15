@@ -1,0 +1,59 @@
+Exercise 1
+<?php 
+ echo "Twinkle, Twinkle little star.\n"; 
+ $sun = "Twinkle"; 
+ $shine = "star"; 
+ echo "$sun, $sun little $shine.\n"; 
+ $sun = "Shine"; 
+ $shine = "rays"; 
+ echo "$sun, $sun little $shine.";
+ ?>  
+
+
+Exercise 2
+<?php
+ $x = 10; 
+ $y = 7; 
+ $a = $x + $y; 
+ echo " $x + $y = $a \n";   
+ $a = $x - $y; 
+ echo " $x - $y = $a \n";   
+ $a = $x * $y; 
+ echo " $x * $y = $a \n";   
+ $a = $x / $y; 
+ echo " $x / $y = $a \n";   
+ $a = $x % $y; 
+ echo " $x % $y = $a \n";   
+ ?> 
+
+
+Exercise 3
+<?php   
+ $variable = 8; 
+ echo "Value is now $variable.\n";    
+ $variable += 2; 
+ echo "Add 2. Value is now $variable.\n";    
+ $variable -= 4; 
+ echo "Subtract 4. Value is now $variable.\n";   
+ $variable *= 5; 
+ echo "Multiply by 5. Value is now $variable.\n";   
+ $variable /= 3; 
+ echo "Divide by 3. Value is now $variable.\n";   
+ $variable++; 
+ echo "Increment value by one. Value is now $variable.\n";   
+ $variable--; 
+ echo "Decrement value by one. Value is now $variable.\n";   
+ ?> 
+
+
+Exercise 4
+<?php   
+ $name = 'Harry'; 
+ $age = 28;   
+ var_dump($name); 
+ print_r($name); 
+ echo " \n";   
+ var_dump($age); 
+ $name=null; 
+ var_dump($name); 
+ ?> 
